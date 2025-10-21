@@ -1,27 +1,16 @@
-# ---- Build output (Maven) ----
 target/
 !.mvn/wrapper/maven-wrapper.jar
 .mvn/wrapper/maven-wrapper.properties
-
-# ---- IDE files ----
 .idea/
 *.iml
 .vscode/
 out/
-
-# ---- Logs / temp ----
 *.log
 *.out
 *.err
-
-# ---- OS junk ----
 .DS_Store
 Thumbs.db
-
-# ---- Java ----
 *.class
-
-# ---- Local env / secrets ----
 .env
 .env.*
 application-local.yml
