@@ -1,0 +1,7 @@
+server:
+  port: 8081  # avoid the 8080 conflict you hit earlier
+
+app:
+  jwt:
+    secret: "this-is-a-long-random-secret-at-least-32-characters"
+    expires-minutes: 60
